@@ -1,0 +1,27 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, Yi Yang!</h1>
+
+Welcome to your new app hehe.
+
+<hr/>
+
+<i>First ever .NET code</i>
+
+<button class="btn btn-primary" @onclick="ShowHello">Show Hello</button>
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <p class="mt-3">@message</p>
+}
+
+@code {
+    private string message = string.Empty;
+
+    private void ShowHello()
+    {
+        message = "hello";
+    }
+}
