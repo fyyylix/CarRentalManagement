@@ -19,6 +19,7 @@ namespace CarRentalManagement.Configurations.Entities
                 Id = "bd2bcf0c-20db-474f-8407-5a6b159518bb",
                 Name = "User",
                 NormalizedName = "USER"
+
             }
             );
         }
